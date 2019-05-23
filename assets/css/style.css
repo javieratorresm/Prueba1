@@ -16,16 +16,41 @@ nav {
   font-weight: 400;
   font-size: 20px;
   position: fixed;
+  text-align: center;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  position: fixed;
 
 }
-header {
-  background-image: url('assets/img/mifoto.jpg');
+.sectionphoto {
+  background-image: url('../img/mifoto.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  padding-bottom: 10rem;
+  background-size: auto;
+  background-position: center;
+  max-height: 800px;
+  background-color: black;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 37px;
 }
 
+.sectionphoto p{
+  vertical-align: text-bottom;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 500px;
+}
+
+.borde{
+  border-bottom: solid;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
 
 footer{
   font-size: 37px;
