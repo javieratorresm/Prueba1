@@ -24,10 +24,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav letranav ml-auto">
-        <a class="nav-item nav-link active" href="#">Sobre mi <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Experiencia</a>
-        <a class="nav-item nav-link " href="#">Trabajo</a>
-        <a class="nav-item nav-link " href="#">Contacto</a>
+        <a class="nav-item nav-link" href="#parrafos">Sobre mi</a>
+        <a class="nav-item nav-link" href="#experiencia">Experiencia</a>
+        <a class="nav-item nav-link " href="#trabajos">Trabajo</a>
+        <a class="nav-item nav-link " href="#contacto">Contacto</a>
 
       </div>
     </div>
@@ -35,14 +35,14 @@
 
     <header>
       <!--seccion foto-->
-      <div class="sectionphoto p-5">
+      <div id="foto" class="sectionphoto p-5">
           <p>Mi nombre es Javiera Torres</p>
       </div>
     </header>
 
-<section class="px-5 pt-5 d-none d-md-block"  >
+<section  class="px-5 pt-5 d-none d-md-block"  >
       <!--parrafos-->
-  <div class="container ">
+  <div id="parrafos" class="container ">
     <h2 class="text-center font-height-bold borde">Presentación</h2>
     <div class="row">
       <div class="col-md-6">
@@ -56,9 +56,9 @@
   </div>
 </section>
 
-<section class="experiencia">
+<section  class="experiencia">
   <!--Experiencia-->
-  <div class="container">
+  <div  id= "experiencia" class="container">
     <h2 class="text-center font-height-bold borde">Experiencia</h2>
     <div class="row">
       <div class="col-md-6 text-center">
@@ -77,13 +77,56 @@
   </div>
 </section>
 
-<section>
+<section class="trabajos bg-secondary text-white p-5">
 <!--trabajos-->
-<div class="trabajos">
+<div  id="trabajos" class="container mb-5 pb-3 d-none d-md-block ">
+  <h2 class="borde text-center">Mis trabajos</h2>
+  <div class="row">
+      <div id="blogCarousel" class="carousel slide col-12  " data-ride="carousel">
+        <ol class="carousel-indicators bg-black">
+          <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#blogCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <div class="row">
+              <div class="col-3">
+                <img class="img-fluid" src="assets/img/cuppon.png">
+              </div>
+              <div class="col-3">
+                <img class="img-fluid" src="assets/img/dmark.png">
+              </div>
+              <div class="col-3">
+              <img  class="img-fluid" src="assets/img/iguana_page.png">
+              </div>
+              <div class="col-3">
+              <img  class="img-fluid" src="assets/img/ricomida.png">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="row">
+              <div class="col-3 ">
+                <img class="img-fluid" src="assets/img/dmark.png">
+              </div>
+              <div class="col-3">
+              <img class="img-fluid" src="assets/img/meet_coffee.png">
+              </div>
+              <div class="col-3">
+                <img class="img-fluid" src="assets/img/bg_hero.png">
+              </div>
+              <div class="col-3">
+              <img class="img-fluid" src="assets/img/suricata.png">
+              </div>
+            </div>
+      </div>
+    </div>
+    </div>
+  </div>
 </div>
 </section>
 
-<section>
+<section id="contacto" >
 <!--formulario-->
 <div class="formulario">
 </div>
