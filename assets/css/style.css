@@ -1,0 +1,32 @@
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+
+
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+nav {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  position: fixed;
+
+}
+header {
+  background-image: url('assets/img/mifoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
+
+
+footer{
+  font-size: 37px;
+}
